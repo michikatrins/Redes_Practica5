@@ -1,0 +1,24 @@
+Nov 05 15:37:49.506 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 05 15:37:49.508 HYPERVISOR: Started on IP = localhost, TCP port = 64120.
+Nov 05 15:37:49.979 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 05 15:37:49.980 HYPERVISOR: exec_cmd: hypervisor working_dir D:\redes\Redes_Practica5\Topologia2\project-files\dynamips 
+Nov 05 15:37:49.980 GENERAL: working_dir=D:\redes\Redes_Practica5\Topologia2\project-files\dynamips
+Nov 05 15:37:49.981 HYPERVISOR: exec_cmd: hypervisor working_dir D:\redes\Redes_Practica5\Topologia2\project-files\dynamips\f613de2a-dec9-49aa-b891-e389ef880678 
+Nov 05 15:37:49.981 GENERAL: working_dir=D:\redes\Redes_Practica5\Topologia2\project-files\dynamips\f613de2a-dec9-49aa-b891-e389ef880678
+Nov 05 15:37:50.010 HYPERVISOR: exec_cmd: vm create R3 3 c3725 
+Nov 05 15:37:50.013 VM: VM R3 created.
+Nov 05 15:37:50.014 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5017 
+Nov 05 15:37:50.014 HYPERVISOR: exec_cmd: c3725 get_mac_addr R3 
+Nov 05 15:37:50.015 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Nov 05 15:37:50.015 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Nov 05 15:37:50.016 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 05 15:37:50.016 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x602467a4 
+Nov 05 15:37:50.018 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/michi/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 05 15:37:50.018 HYPERVISOR: exec_cmd: c3725 set_mac_addr R3 c203.3a04.0000 
+Nov 05 15:37:50.019 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Nov 05 15:37:53.617 HYPERVISOR: exec_cmd: nio create_udp udp-603b3421-7a58-4c11-bedf-b62394af1d02 10004 127.0.0.1 10005 
+Nov 05 15:37:53.890 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-603b3421-7a58-4c11-bedf-b62394af1d02 
+Nov 05 15:37:53.891 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 05 15:37:54.431 HYPERVISOR: exec_cmd: nio create_udp udp-9db18c5c-2bbe-4282-83d2-924d0aea4755 10018 127.0.0.1 10019 
+Nov 05 15:37:54.436 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-9db18c5c-2bbe-4282-83d2-924d0aea4755 
+Nov 05 15:37:54.436 HYPERVISOR: exec_cmd: vm get_status R3 
