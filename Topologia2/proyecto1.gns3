@@ -338,12 +338,43 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "35d1864d-d006-4293-9c2a-f6e1740fbdef",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "OpenVPN TAP-Windows6",
+                            "x": 92,
+                            "y": 72
+                        },
+                        "node_id": "c2e73393-8e82-484a-962d-4ec97149ee8a",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 19,
+                            "y": -8
+                        },
+                        "node_id": "2973b96d-2c6c-4700-b036-b20cb7e6545d",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5011,
+                "console": 5012,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -400,7 +431,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5012,
+                "console": 5013,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -572,7 +603,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5013,
+                "console": 5018,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -652,7 +683,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5018,
+                "console": 5020,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -732,7 +763,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5014,
+                "console": 5021,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -882,8 +913,37 @@
                 "symbol": ":/symbols/cloud.svg",
                 "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
                 "width": 159,
-                "x": -208,
-                "y": -243,
+                "x": -505,
+                "y": -220,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "PC1",
+                    "x": 12,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "PC1",
+                "node_id": "2973b96d-2c6c-4700-b036-b20cb7e6545d",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": -380,
+                "y": 5,
                 "z": 1
             }
         ]
