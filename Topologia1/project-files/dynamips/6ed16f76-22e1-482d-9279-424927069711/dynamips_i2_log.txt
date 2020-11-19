@@ -1,0 +1,19 @@
+Nov 15 19:31:14.540 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 15 19:31:14.542 HYPERVISOR: Started on IP = localhost, TCP port = 63933.
+Nov 15 19:31:14.966 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 15 19:31:14.967 HYPERVISOR: exec_cmd: hypervisor working_dir D:\redes\Redes_Practica5\Topologia1\project-files\dynamips 
+Nov 15 19:31:14.968 GENERAL: working_dir=D:\redes\Redes_Practica5\Topologia1\project-files\dynamips
+Nov 15 19:31:14.968 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Nov 15 19:31:16.467 HYPERVISOR: exec_cmd: nio create_udp udp-aaba71d1-4bdf-495e-9193-da8262485167 10005 127.0.0.1 10004 
+Nov 15 19:31:16.471 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-aaba71d1-4bdf-495e-9193-da8262485167 
+Nov 15 19:31:16.485 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-aaba71d1-4bdf-495e-9193-da8262485167 20 
+Nov 15 19:31:16.532 HYPERVISOR: exec_cmd: nio create_udp udp-a00297c1-1256-4d17-b73d-3106801ac4cd 10007 127.0.0.1 10006 
+Nov 15 19:31:16.536 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-a00297c1-1256-4d17-b73d-3106801ac4cd 
+Nov 15 19:31:16.547 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-a00297c1-1256-4d17-b73d-3106801ac4cd 50 
+Nov 15 19:31:17.363 HYPERVISOR: exec_cmd: nio create_udp udp-69acfd1e-0bcd-4117-8f44-3b5b65d57e51 10019 127.0.0.1 10018 
+Nov 15 19:31:17.366 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-69acfd1e-0bcd-4117-8f44-3b5b65d57e51 
+Nov 15 19:31:17.377 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch3 udp-69acfd1e-0bcd-4117-8f44-3b5b65d57e51 1 
+Nov 15 19:32:51.444 HYPERVISOR: exec_cmd: ethsw delete Switch3 
+Nov 15 19:32:51.532 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 15 19:32:52.045 HYPERVISOR: Stopped.
+Nov 15 19:32:52.046 GENERAL: reset done.
